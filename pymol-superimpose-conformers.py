@@ -12,3 +12,4 @@ for xyz in range(2,nstruct+1):
     cmd.select("struct1", "model {0}{1} and id {2}".format(name, xyz, atoms))
     cmd.select("struct2", "model {0}{1} and id {2}".format(name, xyz-1, atoms))
     cmd.pair_fit("struct1", "struct2")
+    
