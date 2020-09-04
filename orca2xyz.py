@@ -37,3 +37,4 @@ for i in range(0,natom):
     xyzline="""{0}    {1}    {2}    {3}\n""".format(atoms[i], xyz[i,0], xyz[i,1], xyz[i,2])
     with open('{0}/{1}.xyz'.format(workdir,name),'a') as newxyz:
         newxyz.write(xyzline) 
+     
