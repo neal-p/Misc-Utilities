@@ -5,6 +5,8 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+#this is a test change
+
 #module add legacy
 # User specific aliases and functions
 #module load slurm-14.11.8
